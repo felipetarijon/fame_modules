@@ -1,4 +1,4 @@
-FROM alpine:3
+FROM --platform linux/amd64 alpine:3
 
 ENV EXIFTOOL_VERSION=12.76
 

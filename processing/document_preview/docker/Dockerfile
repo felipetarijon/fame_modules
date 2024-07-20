@@ -1,4 +1,4 @@
-FROM python:3
+FROM --platform linux/amd64 python:3
 
 RUN apt-get update && apt-get install -y poppler-utils libreoffice --no-install-recommends
 

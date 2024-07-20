@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM --platform linux/amd64 python:3.7-alpine
 
 
 RUN apk add libffi-dev gcc musl-dev libressl-dev
