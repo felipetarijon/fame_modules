@@ -1,4 +1,4 @@
-FROM --platform linux/amd64 node:19.2-slim
+FROM --platform=linux/amd64 node:19.2-slim
 
 # See https://crbug.com/795759
 RUN apt update && apt install -yq libgconf-2-4 software-properties-common wget gnupg
